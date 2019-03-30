@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <sui-button>Click Here</sui-button>
+    <sui-button>Test</sui-button>
   </div>
 </template>
 
