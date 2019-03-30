@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "push-pages": "git subtree push --prefix teamhermes/dist origin gh-pages"
   },
   "repository": {
     "type": "git",
