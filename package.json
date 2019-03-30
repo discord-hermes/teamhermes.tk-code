@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "push-pages": "git subtree push --prefix teamhermes/dist origin gh-pages"
+    "push-pages": "git push origin --delete gh-pages && git subtree push --prefix teamhermes/dist origin gh-pages",
+    "deploy": "cd teamhermes && npm run build && cd .."
   },
   "repository": {
     "type": "git",
