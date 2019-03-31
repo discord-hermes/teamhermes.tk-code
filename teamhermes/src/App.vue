@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <sui-button>Test 2</sui-button>
+    <sui-button>이 버튼은 하양게임즈가 만들었어요!</sui-button>
   </div>
 </template>
 
