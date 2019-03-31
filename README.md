@@ -1,10 +1,12 @@
 # teamhermes.tk
 ## 수정하기
 teamhermes/src/ 폴더에서 작업해주세요.
+
     ```sh
     npm run serve
     ```
 명령어를 실행하면 <localhost:8080>실시간으로 결과물을 확인할 수 있습니다.
+
     ```sh
     npm run deploy
     ```
