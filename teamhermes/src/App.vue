@@ -6,10 +6,19 @@
         <a 
         is="sui-menu-item" 
         v-for="item in items" 
-        :content="item"  
+        :content="item.title" 
+        :href="'#' + item.id"
         />
       </sui-menu-menu>
     </sui-menu>
+    <p :style="{fontSize: '100px', fontWeight: '700'}">
+      Team Hermes
+    </p>
+    <h1 
+    is="sui-header"
+    v-for="item in items" 
+    :content="item.title" 
+    :id="item.id"/>
   </div>
 </template>
 
@@ -19,9 +28,9 @@
     data() {
       return {
         items: [
-        "팀 소개",
-        "프로젝트",
-        "봇 설치"
+        {title: "팀 소개", id: "team"},
+        {title: "프로젝트", id: "project"},
+        {title: "봇 추가", id: "add"}
         ]
       }
     },
@@ -37,6 +46,6 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
+    margin-top: 41.6px;
   }
 </style>
