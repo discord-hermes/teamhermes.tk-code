@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <sui-button>dark(√공원) 바보<br />-하양게임즈 명언집 中</sui-button>
-    <span>dark(√공원) 바보인거 인정? {{ msg }}</span>
+    <sui-menu fixed>
+      <sui-menu-item>Hi</sui-menu-item>
+    </sui-menu>
   </div>
 </template>
 
