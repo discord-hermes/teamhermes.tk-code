@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd teamhermes && npm run build && cd dist && git add . && git commit -m \"$(date)\" && git push"
+    "build": "cd teamhermes && ./deploy.sh"
   },
   "repository": {
     "type": "git",
