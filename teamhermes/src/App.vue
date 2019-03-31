@@ -21,13 +21,18 @@
         items: [
         "팀 소개",
         "프로젝트",
-        "봇 설치"
+        "봇 설치",
+        "Dark Babo Foundation"
         ]
       }
     },
     components: {
     }
   }
+</script>
+
+<script>
+  alert('dark 바보')
 </script>
 
 <style>
