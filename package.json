@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd teamhermes && ./deploy.sh"
+    "deploy": "cd teamhermes && ./deploy.sh",
+    "serve": "cd teamhermes && npm run serve",
+    "build": "cd teamhermes && npm run build",
+    "lint": "cd teamhermes && npm run lint"
   },
   "repository": {
     "type": "git",
