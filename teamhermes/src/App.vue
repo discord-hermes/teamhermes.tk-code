@@ -14,10 +14,6 @@ export default {
 }
 </script>
 
-  <script>
-  alert('dark 바보')
-  </script>
-
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
