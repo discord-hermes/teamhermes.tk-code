@@ -1,5 +1,8 @@
 # teamhermes.tk
 ## 수정하기
+> 아래 명령어들은 node.js 설치 후
+> cmd 또는 git bash 등을 사용해서 실행해 주세요.
+
 ```sh
 npm install && cd teamhermes && npm install
 ```
