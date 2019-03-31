@@ -3,9 +3,11 @@
     <sui-menu fixed borderless>
       <sui-menu-item>Team Hermes</sui-menu-item>
       <sui-menu-menu position="right">
-        <sui-menu-item v-for="item in items">
-          {{item}}
-        </sui-menu-item>
+        <a 
+        is="sui-menu-item" 
+        v-for="item in items" 
+        :content="item"  
+        />
       </sui-menu-menu>
     </sui-menu>
   </div>
@@ -28,9 +30,9 @@
   }
 </script>
 
-  <script>
+<script>
   alert('dark 바보')
-  </script>
+</script>
 
 
 <style>
