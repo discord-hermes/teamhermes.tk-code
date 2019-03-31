@@ -1,15 +1,17 @@
 <template>
   <div id="app">
     <sui-menu fixed borderless>
-      <sui-menu-item>Team Hermes</sui-menu-item>
-      <sui-menu-menu position="right">
-        <a 
-        is="sui-menu-item" 
-        v-for="item in items" 
-        :content="item.title" 
-        :href="'#' + item.id"
-        />
-      </sui-menu-menu>
+      <sui-container>
+        <sui-menu-item>Team Hermes</sui-menu-item>
+        <sui-menu-menu position="right">
+          <a 
+          is="sui-menu-item" 
+          v-for="item in items" 
+          :content="item.title" 
+          :href="'#' + item.id"
+          />
+        </sui-menu-menu>
+      </sui-container>
     </sui-menu>
     <p :style="{fontSize: '100px', fontWeight: '700'}">
       Team Hermes
