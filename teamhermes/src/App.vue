@@ -5,6 +5,7 @@
   </div>
   <script>
   alert('dark 바보')
+  </script>
 </template>
 
 <script>
