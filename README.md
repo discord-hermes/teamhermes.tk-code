@@ -1,7 +1,7 @@
 # teamhermes.tk
 ## 수정하기
 > 아래 명령어들은 node.js 설치 후
-> cmd 또는 git bash 등을 사용해서 실행해 주세요.
+> cmd, powershell 또는 git bash 등을 사용해서 실행해 주세요.
 
 ```sh
 npm install && cd teamhermes && npm install
@@ -20,3 +20,5 @@ npm run deploy
 현재 위 명령어 사용시 오류 발생합니다. 수정 예정.
 
 teamhermes 폴더에 있는 deploy.sh 파일을 대신 실행하세요.
+
+<span style="color:white">Red Text</span>
