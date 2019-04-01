@@ -16,15 +16,20 @@
     <p :style="{fontSize: '100px', fontWeight: '700'}">
       Team Hermes
     </p>
-    <h1 
-    is="sui-header"
-    v-for="item in items" 
-    :content="item.title" 
-    :id="item.id"/>
+    <div v-for="item in items" :id="item.id">
+      <h1 is="sui-header">
+        {{item.title}}
+      </h1>
+      <div class="description" :is="item.id"/>
+    </div>
   </div>
 </template>
 
 <script>
+  import team from './components/team.vue'
+  import project from './components/project.vue'
+  import add from './components/add.vue'
+
   export default {
     name: 'app',
     data() {
@@ -37,17 +42,24 @@
       }
     },
     components: {
+      team,
+      project,
+      add
     }
   }
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,900&subset=korean');
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
     margin-top: 41.6px;
+  }
+  .description {
+    margin: 20px;
   }
 </style>
